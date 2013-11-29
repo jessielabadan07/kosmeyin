@@ -1,0 +1,114 @@
+/* CSS Document */
+
+.jcarousel-container-horizontal {
+   
+}
+
+.jcarousel-clip-horizontal{
+	width: 710px;
+    height:270px;
+}
+
+.jcarousel-clip{
+	overflow:hidden;
+}
+
+.jcarousel-item{
+	width:218px;
+	height:265px;
+	border:#EFEFEF solid 1px;
+	
+	vertical-align:top;
+	margin-right:10px;
+}
+
+.jcarousel-control {
+    /*margin-bottom: 10px;
+    text-align: center;*/
+	overflow:auto;
+}
+
+.jcarousel-control a {
+    /*font-size: 75%;
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 0 5px 0;
+    border: 1px solid #fff;
+    color: #eee;
+    background-color: #4088b8;
+    font-weight: bold;*/
+}
+
+.jcarousel-control a:focus,
+.jcarousel-control a:active {
+    outline: none;
+}
+
+
+/*none plugin stuff*/
+.carouselArticles{
+}
+
+.carouselTable{
+	display:table;
+	width:100%;
+}
+
+.carouselRow{
+	display:table-row;
+}
+
+.carouselScrollCol{
+	width:710px;
+	height:265px;
+	display:table-cell;
+	vertical-align:top;
+}
+
+.carouselArtMenuCol{
+	width:218px;
+	
+	display:table-cell;
+	vertical-align:top;
+}
+
+.carouselArtMenuCol .latestArticleCont{
+	border:1px solid #EFEFEF;
+	height:255px;
+	overflow:auto;
+}
+
+.latestArtEx{
+	height:75px;
+	overflow:hidden;
+	line-height:18px;
+}
+
+.latestArticleExTitle{
+	height:19px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.latestArticleExPhoto{
+	height:126px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.latestArticleExPhoto p, .latestArticleExTitle p, .latestArtEx p, .readmore p{
+	margin:0;
+	padding:0;
+}
+span.hideNumber{
+	display:none;
+}
+
+.latestImgEx{
+	text-align:center;
+}
+
+.latestImgEx img{
+	height:126px;
+	width:auto;
+}

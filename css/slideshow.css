@@ -1,0 +1,93 @@
+#slideshow{
+}
+
+.slideCont{
+	position:relative;
+	
+	width:708px;
+	height:222px;
+	overflow:hidden;
+	
+	border:#DDDDDD 1px solid;
+	border-radius:3px;
+}
+
+#defense{
+}
+
+#defense img{
+	
+}
+
+#slideTitle, #caption{
+	/*display:none*/
+	color:white;
+	padding:0px;
+	font-size:12px;
+}
+
+#slideTitle p, #caption p{
+	margin:0;
+	padding:0;
+}
+
+#slideTitle{
+	font-weight:bold;
+}
+
+.theCaps{
+	position:absolute;
+	bottom:0;
+	background-color:rgba(0,0,0,.8);
+	z-index:1000;
+	height:50px;
+	width:100%;
+	padding:5px 5px 0;
+}
+
+#theListNav{
+	position:absolute;
+	bottom:15px;
+	width:708px;
+	z-index:10;
+}
+
+ul#nav {
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+#nav li{
+	display:inline-block;
+	list-style: none outside none;
+	padding:0;
+	background-image: url(../images/icons/inActBtn.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 15px;
+	width: 14px;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 2px;	/*border-radius:3px;
+	background-color:rgba(255,169,0,.85);
+	border:1px solid #FFCC00;*/
+	
+	
+}
+
+#nav li a{
+	text-indent:-300000px;
+	width:15px;
+	height:15px;
+	display:block;
+}
+
+#nav li.activeSlide{
+	/*background-color:#990000;
+	border:#FF0000 1px solid;*/
+	background-image: url(../images/icons/activeBtn.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}

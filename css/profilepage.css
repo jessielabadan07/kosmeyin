@@ -1,0 +1,349 @@
+/* CSS Document */
+
+.userRow{
+	font-size:24px;
+	padding:5px 0 20px;
+	font-weight:bold;
+}
+
+.userRow img{
+	padding:2px;
+	border:#DDDDDD 1px solid;
+	margin:0 20px 0 0;
+}
+
+.containers{
+	border-top: 1px solid #E1E1E1;
+	padding:20px 0;
+}
+
+.profileTable{
+	display:table;
+	width:100%;
+}
+
+.profileTableRow{
+	display:table-row;
+}
+
+.profileTableCell{
+	display:table-cell;
+	width:48%;
+	vertical-align:top;
+}
+
+.profileTableCell:nth-child(odd){
+	padding:0 2% 0 0;
+}
+
+.profileTableCell:nth-child(even){
+	padding:0 0 0 2%;
+}
+
+
+.quickInfo{
+}
+
+.quickInfo dl{
+	clear:both;
+	margin-top:0;
+}
+
+.quickInfo dt{
+	width:130px;
+	display:block;
+	clear:both;
+	float:left;
+}
+
+.quickInfo dd{
+	margin:0;
+	padding:0;
+}
+
+.grayText9{
+	color:#949494;
+}
+
+.pointSumm table tr td {
+	font-size:11px;
+	line-height:175%;
+}
+
+.quickPtSumm{
+}
+
+.quickPtSummValue{
+	text-align:center;
+	color:#000000;
+	font-size:32px;
+	font-weight:bold;
+}
+
+.quickPtSummLabel{
+	text-align:center;
+	color:#949494;
+	font-size:16px;
+}
+
+.quickPtBar{
+	padding:20px 0 10px;
+}
+
+.quickPtBarGray{
+	background-color:#E9E9E9;
+	height:15px;
+	display:block;
+	border-radius:9px;
+	padding:2px;
+	position:relative;
+	overflow:hidden;
+	box-shadow:inset rgba(0,0,0,.3) 0px 5px 5px;/*, rgba(0,0,0,.3) 0px 2px 2px*/
+}
+
+.quickPtBlue{
+	background-color:#74CEE2;
+	
+	height:15px;
+	display:block;
+	border-radius:8px;
+	position:absolute;
+	z-index:10;
+	box-shadow:rgba(0,0,0,.3) 0px 5px 5px;
+}
+
+td.ptStart{
+	color:#ed1c29;
+	text-align:left;
+	font-size:9px;
+}
+
+td.ptEnd{
+	color:#ed1c29;
+	text-align:right;
+	font-size:9px;
+}
+
+.redMarkerDiv{
+	background-color:#fc717b;
+	height:19px;
+	width:1px;
+	display:block;
+	position:absolute;
+	top:0px;
+	z-index:100;
+	box-shadow:rgba(0,0,0,.3) 0px 0 1px;
+}
+
+/*level summary*/
+#levelSummary{
+}
+
+#levelSummary h3, h3{
+	font-size:24px;
+	margin:0;
+	padding:0;
+}
+
+#levelSummary p.note{
+	font-size:14px;
+	margin:0;
+	padding:5px 0 10px;
+}
+
+#levelSummaryUserAv{
+	width:132px;
+	height:172px;
+	display:block;
+	margin:0 20px 0 0;
+	border:#dddddd 1px solid;
+}
+
+#levelSummaryLevels{
+	
+}
+
+#levelSummaryLevels ul{
+	margin:0;
+	padding:0;
+}
+
+#levelSummaryLevels ul li{
+	margin:0 8px 10px 0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	width:39px;
+	height:39px;
+	vertical-align:bottom;
+	border:#DDDDDD 1px solid;
+}
+
+#levelSummaryLevels ul li .lock{
+	width:39px;
+	height:20px;
+	position:absolute;
+	left:0;
+	top:0;
+	display:inline-block;
+	z-index:1000;
+	text-align:center;
+	vertical-align:middle;
+	padding:10px 0;
+}
+
+/*reviews*/
+.review{
+	width:410px;
+	height:234px;
+	border:#C9C6C6 1px solid;
+	margin:0 0 20px 0;
+	padding:20px;
+}
+
+.productImage img{
+	padding:10px;
+	border:#E7E7E7 1px solid;
+	border-radius:6px;
+	width:181px;
+	height:114px;
+	display:block;
+}
+
+.productQuickInfo{
+	font-size:12px;
+	padding:0 0 0 10px;
+	width:100%;
+}
+
+.productQuickInfo h4{
+	padding:10px 0 0 0;
+	margin:0;
+	line-height:171%;
+	display:block;
+	height:35px;
+	color:#ED1C28;
+}
+
+.productQuickInfoDescription{
+	height:59px;
+}
+
+.productQuickInfoViewProd{
+	text-align:right;
+	color:#73CEE1;
+}
+
+.productQuickInfoViewProd a, .productQuickInfoViewProd a:link, .productQuickInfoViewProd a:visited{
+	text-decoration:none;
+	color:#73CEE1;
+	font-size:12px;
+}
+
+.productQuickInfoComment, .theQuote{
+	background-image: url(../images/reviews/openQt.png),url(../images/reviews/closeQt.png);
+	background-repeat: no-repeat;
+	background-position: left top, right bottom;
+	padding:8px 32px;
+	margin:10px 0;
+	font-size:12px;
+	height:50px;
+}
+
+.theQuote{
+	display:inline-block;
+	float:right;
+	color:#000000;
+	font-size:14px;
+}
+
+/*nav*/
+.menu_rev_nav ul{
+	float:right;
+	margin:15px 0 0;
+}
+.menu_rev_nav ul li{
+	/*#E8E8E8*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E8E8E8));
+	background: -moz-linear-gradient(top,  #FFF,  #E8E8E8);
+	background: linear-gradient(top,  #FFF,  #E8E8E8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E8E8E8'); /* for IE */
+	box-shadow:rgba(0,0,0,.2) 0px 1px 1px, rgba(0,0,0,.1) 0px -1px 1px, rgba(0,0,0,.1) 2px 0px 2px;
+	border-radius:12px;
+	display:inline-block;
+	color:#474646;
+	font-size:11px;overflow:hidden;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin:0 2px;
+}
+
+.menu_rev_nav ul li a.navBtnFst, .menu_rev_nav ul li a.navBtnFst:link, .menu_rev_nav ul li a.navBtnFst:visited{
+	background-image: url(../images/reviews/btnPrev.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left:21px;
+}
+
+.menu_rev_nav ul li a.navBtnLst, .menu_rev_nav ul li a.navBtnLst:link, .menu_rev_nav ul li a.navBtnLst:visited{
+	background-image: url(../images/reviews/btnNxt.png);
+	background-repeat: no-repeat;
+	background-position: 33px center;
+	padding-right:21px;
+	
+}
+
+menu_rev_nav ul li a.navBtnPrev, .menu_rev_nav ul li a.navBtnPrev:link, .menu_rev_nav ul li a.navBtnPrev:visited{
+	background-image: url(../images/reviews/btnPrev.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent:-1000px;
+	padding:6px 12px;
+}
+
+.menu_rev_nav ul li a.navBtnNxt, .menu_rev_nav ul li a.navBtnNxt:link, .menu_rev_nav ul li a.navBtnNxt:visited{
+	background-image: url(../images/reviews/btnNxt.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent:-1000px;
+	padding:6px 12px;
+}
+
+
+
+.menu_rev_nav ul li a, .menu_rev_nav ul li a:link, .menu_rev_nav ul li a:visited{
+	padding:6px 8px;
+	color:#474646;
+	text-decoration:none;
+	line-height:100%;
+	display:block;
+}
+
+.menu_rev_nav ul li a img{
+	border:none;line-height:0%;margin:0 -2px -1px;
+}
+
+#tabs{
+    padding: 0.2em;
+    position: relative;
+}
+
+.userCol, .tabContainer{
+	display:table-cell;
+	vertical-align:top;
+}
+
+.tabContainer{
+	width:900px;
+}
+
+
+.userCol{
+	width:130px;
+}
+
+.userImg img{
+	padding:2px;
+	border:#CCCCCC 1px solid;
+	border-radius: 3px;
+}

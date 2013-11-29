@@ -1,0 +1,1 @@
+<?php ob_start();require_once('lib/function.php'); session_start(); include('controller/maincontroller.php'); ?>

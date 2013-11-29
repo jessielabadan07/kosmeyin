@@ -1,0 +1,360 @@
+form.registerForm{
+	margin:0;
+	padding:0;
+}
+
+form.registerForm label{
+	width:145px;
+	
+	display:inline-block;
+	color:#303030;
+	font-size:16px;
+	padding:5px 3px 5px 0;
+	text-align:right;
+}
+
+form.registerForm p{
+	clear:both;
+}
+
+form.registerForm p.radioBtn{
+}
+
+form.registerForm p.radioBtn label:first-child{
+	width:145px;
+	display:inline-block;
+	color:#303030;
+	font-size:16px;
+	padding:5px 3px 5px 0;
+	text-align:right;
+}
+
+form.registerForm p.radioBtn label{
+	display:inline-block;
+	color:#303030;
+	font-size:16px;
+	padding:5px 3px 5px 0;
+	text-align:right;
+	width:auto;
+}
+
+form.registerForm input[type="text"], form.registerForm input[type="password"]{
+	height:21px;
+	color:#949494;
+	width:254px;
+}
+
+.reCaptcha, .kosgrey2{
+	color:#999999;
+	padding:0 0 0 150px;
+}
+
+.kosgrey2{
+	display:block;
+}
+
+form.registerForm {
+	background:none;
+	border:none;
+	
+}
+
+.sideBar250{
+	width:250px;
+	font-size:13px;
+	color:#949494;
+}
+
+
+form.registerForm input.registerBtn{
+	height:31px;
+	cursor:pointer;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#89E7F8), to(#409EAF));
+	background: -moz-linear-gradient(top,  #89E7F8,  #409EAF);
+	background: linear-gradient(top,  #89E7F8,  #409EAF);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#89E7F8', endColorstr='#409EAF');*/ /* for IE url(../images/reviews/btnNxt.png), */
+	/*background-image:url(../images/reviews/btnNxt.png), url(../images/bluGrad.png);
+	background-position:10px 10px, left top;
+	background-repeat:no-repeat, repeat-x;*/
+	background-image:url(../images/btnArrow.png), url(../images/bluGrad.png);
+	background-position:10px 10px, left top;
+	background-repeat:no-repeat, repeat-x;
+	box-shadow:rgba(0,0,0,.2) 0px 1px 1px, rgba(0,0,0,.1) 0px -1px 1px, rgba(0,0,0,.1) 2px 0px 2px;
+	border:none;
+	text-shadow:#409EAF -1px 0 0px;
+	font-size:9px;
+	color:#FFFFFF;
+	border-radius:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+form.registerForm a{
+	color:#74cee2;
+	text-decoration:none;
+}
+
+h3.sideBar{
+	font-size:24px;
+	text-align:center;
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	color:#000000;
+}
+
+.sideBar250 a.login{
+	width:136px;
+	margin:0 auto;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#74cee2;
+	display:block;
+	font-size:24px;
+	text-decoration:none;
+	padding:15px 0;
+	box-shadow:rgba(0,0,0,.5) 1px 2px 5px;
+}
+
+.smallWords{
+	width:169px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+form.commentForm{
+	border:#EEEEEE 1px solid;
+	padding:10px 20px;
+}
+
+form.commentForm textarea{
+	width:414px;
+	height:110px;
+}
+
+form.commentForm input[type=submit]{
+	background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#AAAAAA));
+	background: -moz-linear-gradient(top,  #EEEEEE,  #AAAAAA);
+	background: linear-gradient(top,  #EEEEEE,  #AAAAAA);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#AAAAAA');*/ /* for IE url(../images/reviews/btnNxt.png), */
+	box-shadow:rgba(0,0,0,.2) 0px 1px 1px, rgba(0,0,0,.1) 0px -1px 1px, rgba(0,0,0,.1) 2px 0px 2px;
+	border:none;
+	border-radius:15px;
+	padding-left:25px;
+	padding-right:25px;
+	height:31px;
+	color:#333333;
+	font-weight:bold;
+	text-shadow:#FFFFFF 0px 1px 1px;
+	box-shadow:rgba(0,0,0,.2) 0px 1px 1px, rgba(0,0,0,.1) 0px -1px 1px, rgba(0,0,0,.1) 2px 0px 2px;
+}
+
+/*contact form*/
+.contactBox textarea{
+	width:100%;
+	border-radius:8px;
+	border:none;
+	box-shadow:inset rgba(0,0,0,.2) 1px 1px 2px;
+}
+
+.contactBox input[type=text]{
+	height:24px;
+	width:151px;
+	padding:0 10px;
+	border-radius:12px;
+	border:none;
+	box-shadow:inset rgba(0,0,0,.2) 1px 1px 2px;
+}
+
+.contactBox label{
+	color:#6A6A6A;
+}
+
+.contactBox input[type=submit]{
+	background-color:#F4F4F4;
+	border:none;
+	height:36px;
+	border-radius:18px;
+	width:91px;
+	box-shadow:rgba(0,0,0,.4) 2px 1px 3px;
+	background-image: url(../images/btnArrowGrey.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left:25px;
+	line-height:100%;
+	font-weight:bold;
+	color:#474646;
+	text-transform:uppercase;
+	font-size:11px;
+	text-shadow:rgba(255,255,255,1) 0 1px 0;
+	cursor:pointer;
+}
+
+/*lightbox form*/
+.liteBoxInner form{
+	width:329px;
+	margin:auto;
+}
+
+.liteBoxInner form p{
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+.liteBoxInner form fieldset{
+	border-radius:12px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#e3f5f9));
+	background: -moz-linear-gradient(top,  rgba(255,255,255,.2),  rgba(116,206,226,.2));
+	background: linear-gradient(top,  #FFF,  #e3f5f9);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#e3f5f9'); /* for IE */
+	box-shadow:rgba(0,0,0,.3) 5px 5px 5px;
+	border:none;
+	margin:0px 0 20px;
+	padding:20px;
+}
+
+.liteBoxInner form label{
+	padding:0 0 0 5px;
+}
+
+.liteBoxInner form input[type=text]{
+	width:200px;
+}
+
+
+.liteBoxInner form input[type=text]{
+	border-radius:12px;
+	border:none;
+	height:24px;
+	box-shadow:inset rgba(0,0,0,.2) 1px 1px 2px;
+}
+
+.liteBoxInner form input[type=submit]{
+	background-color: #CC0000;
+    background-image: url("../images/btnArrowBlk.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: medium none;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 100%;
+    padding-left: 20px;
+    text-shadow: 0 1px 1px #000000;
+    text-transform: uppercase;
+    width: 111px;
+}
+
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+p { clear: both; }
+
+.error, form.registerForm p label.error{
+	color:red;
+}
+
+form.registerForm p label.error{
+	/*float:left;*/
+	font-size:10px;
+	width:auto;
+	padding-left: 16px;
+	background-image: url(../images/icons/iconCheck.png);
+	background-repeat: no-repeat;
+	background-position: -200px center;
+
+}
+
+form.registerForm p label.checked{
+	
+	background-position: left center;
+	height: 14px;
+}
+
+form.registerForm p.radioBtn{
+	position:relative;
+}
+
+form.registerForm p.radioBtn label.error{
+	position:absolute;
+	left:320px;
+}
+
+form.registerForm p.radioBtn label.checked{
+	position:absolute;
+	left:320px;
+}
+
+/*10302012*/
+.stepsContTwo_inner form{
+	width:auto;
+	margin:auto;
+} 
+
+.stepsContTwo_inner .signUpForm{
+	background-color:#74cee2;
+	border-radius:12px;
+	box-shadow:rgba(0,0,0,.3) 5px 5px 5px;
+	padding:12px 12px 12px 12px;
+}
+
+.stepsContTwo_inner .signUpForm p{
+	margin:0;
+	padding:0 0 15px 0;
+	line-height:180%;
+	font-size:12px;
+}
+
+.stepsContTwo_inner form label{
+	padding:0 0 0 15px;
+	color:#6A6A6A;
+}
+
+.stepsContTwo_inner form input[type=text]{
+	width:209px;
+}
+
+
+.stepsContTwo_inner form input[type=text]{
+	border-radius:10px;
+	border:none;
+	height:20px;
+	box-shadow:inset rgba(0,0,0,.2) 1px 1px 2px;
+}
+
+.stepsContTwo_inner .signUpForm form input[type=submit]{
+	background-color: #CC0000;
+    background-image: url("../images/btnArrowBlk.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: medium none;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 100%;
+    padding-left: 20px;
+    text-shadow: 0 0px 0px #000000;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.stepsContTwo_inner .signUpForm form p.registerBtnRow{
+	text-align:right;
+}
+
+.stepsContTwo_inner .stepsContTwo_forgotRow p{
+	font-weight:normal;
+	font-size:12px;
+}
+
+.stepsContTwo_inner .stepsContTwo_forgotRow p a{
+	color:#74cee2;
+}

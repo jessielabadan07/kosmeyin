@@ -1,0 +1,230 @@
+#how_steps{
+	display:block;
+	position:relative;
+	height:1120px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#how_steps h1{
+	font-size:60px;
+}
+
+#theMac{
+	position:absolute;
+	top:90px;
+	left:14px;
+}
+
+#signupStep{
+	position:absolute;
+	width:345px;
+	right:30px;
+	top:0;
+	font-size:18px;
+	text-align:justify;
+}
+
+.stepNum{
+	background-image: url(../images/howitworks/stepnum.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 85px;
+	width: 83px;
+	display:inline-block;
+	vertical-align:middle;
+	font-size:40px;
+	text-align:center;
+	font-family:"Arial Black",Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-weight:bolder;
+	line-height:210%;
+	
+}
+
+#stepOne{
+	left:536px;
+	top:156px;
+	position:absolute;
+}
+
+#dotsOne{
+	background-image: url(../images/howitworks/dotsOne.png);
+	display: block;
+	height: 378px;
+	width: 243px;
+	position: absolute;
+	right: 70px;
+	top: 100px;
+}
+
+#stepOneInst{
+	width:330px;
+	display:block;
+	position:absolute;
+	left:402px;
+	top:260px;
+}
+
+.stepInst{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.stepInst p{
+	padding-top:0;
+	margin-top:0;
+	text-align:justify;
+}
+
+.stepInst h3{
+	font-size:24px;
+	margin:0;
+	padding:0 0 12px 0;
+	line-height:100%;
+	font-weight:normal;
+}
+
+#medalDots{
+	background-image: url(../images/howitworks/medaldots.png);
+	display: block;
+	height: 428px;
+	width: 594px;
+	position: absolute;
+	left: -20px;
+	top: 428px;
+}
+
+#stepTwo{
+	left:616px;
+	top:400px;
+	position:absolute;
+}
+
+#stepTwoInst{
+	width:240px;
+	display:block;
+	position:absolute;
+	left:616px;
+	top:490px;
+}
+
+#stepThreeInst{
+	width:220px;
+	display:block;
+	position:absolute;
+	left:0px;
+	top:690px;
+}
+
+#stepThree{
+	left:266px;
+	top:810px;
+	position:absolute;
+}
+
+#productsHow{
+	background-image: url(../images/howitworks/products.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	height: 163px;
+	width: 369px;
+	position: absolute;
+	right: 0px;
+	bottom: 200px;
+}
+
+#btnStartPoints{
+	background-image: url(../images/howitworks/startPoints.png);
+	display: block;
+	height: 145px;
+	width: 430px;
+	position:absolute;
+	left:50%;
+	margin:0 -25%;
+	bottom:0;
+}
+
+#btnStartPoints a{
+	display:block;
+	height:112px;
+	text-transform:capitalize;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:120%;
+	font-size:46px;
+	padding:12px 0;
+}
+
+/*earn points*/
+
+.earnPoints{
+	border-top:#E1E1E1 solid 1px;
+	padding:0 0 30px 0;
+	margin:30px 0 0 0;
+}
+
+.earnPoints h2{
+	font-size:40px;
+	margin:0;
+	padding:10px 0;
+	font-weight:normal;
+}
+
+.pointsRow{
+	height:220px;
+	background-image: url(../images/howitworks/earnPtTable.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin-bottom:30px;
+}
+
+.pointsBallsTable{
+	width:841px;
+	margin:0 auto;
+	display:table;
+	table-layout:fixed;
+}
+
+.pointsBallsTableRow{
+	display:table-row;
+}
+
+.pointsBallsTableCell{
+	display:table-cell;
+}
+
+.pointBall{
+	text-align:center;
+	background-image: url(../images/howitworks/redBalls.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	margin: auto;
+	height: 82px;
+	width: 121px;
+	padding:39px 0 0 0;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:40px;
+	line-height:100%;
+}
+
+.pointBall:after{
+	content:'points';
+	font-size:18px;
+	display:block;
+	line-height:100%;
+}
+
+.pointBallTitle{
+	font-size:24px;
+	text-align:center;
+	padding:10px 0 0 0;
+	line-height:100%;
+	font-weight:bold;
+}
+
+

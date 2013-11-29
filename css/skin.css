@@ -1,0 +1,80 @@
+/* CSS Document */
+
+body{
+	background-color:#FFF;
+	background-image: url(../images/main_bg2.png);
+	background-position: center top;
+}
+
+#main_cont{
+	border:#dfdfdf 1px solid;
+	background-color:#FFF;
+}
+
+#logo_row_table_cell2 .modules form#searchFormTop{
+	border:#DBDBDB 1px solid;
+	padding:5px 4px;
+}
+
+#logo_row_table_cell2 .modules form#searchFormTop input[type="text"]{
+	border:none;
+	color:#828282;
+	width:97px;
+}
+
+#logo_row_table_cell2 .modules form#searchFormTop input[type="submit"]{
+	background-image: url(../images/icon_search.png);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	border:none;
+	background-color:none;
+	text-indent:-5000px;
+	width:23px;
+	height:19px;
+	cursor:pointer;
+}
+
+
+/*red group*/
+.adModRed{
+	width: 154px;
+	display:block;
+}
+
+.adModRed-mid{
+	background-image: url(../images/admodredmid.png);
+	background-repeat: repeat-y;
+	background-position: bottom;		
+}
+
+.adModRed-top{
+	background-image: url(../images/admodredtop.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+
+.adModRed-bot{
+	background-image: url(../images/admodredbot.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;	
+}
+
+.adModRedContentInner{
+	background-image: url(../images/bg_white_hair.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding:66px 0 0 0;
+}
+
+.adModBlue{
+	background-color:#74CEE2;
+}
+
+/*bottom menu*/
+/*bottom menu*/
+.menu_bottom{
+	border-top: 1px solid #E1E1E1;
+}
+
+
+

@@ -1,0 +1,61 @@
+html, body{ font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; font-size: 12px; background: #ffffff url(http://localhost/kosmeyin/admin-panel/images/bkgrd2.png); }
+a { color: #888; text-decoration: none; }
+a:hover { color: #CCC; }
+.clicked { background-color: #f00; }
+#form_div { margin-top: 50px; overflow:hidden; width:300px; height:auto; -moz-border-radius: 5px; padding: 15px; border-radius: 5px; border: 1px solid #CCC; box-shadow: 1px 5px 5px #888; margin: 0 auto; }
+#form_div table { border: none; }
+#form_div table th { font-weight: normal; font-size: 12px; text-align: justify; padding-bottom: 10px; color: #888; }
+#form_div table td { padding-bottom: 10px; }
+#form_div table td input[type=text],
+#form_div table td input[type=password] { padding: 2px; border: 1px solid #CCC; width: 200px; height: 25px; color: #888; }
+#form_div table td input[type=submit] { -moz-border-radius: 5px; border-radius: 5px; padding: 5px; width: 50px; background-color: #C60070; color: #fff; font-weight: bold; }
+#form_div table td input[type=submit]:hover { cursor: pointer; background-color: #F7819F; color: #C60070; }
+#tab_menu { width: auto; height: 20px; position: relative; overflow: hidden; margin-top: 2px; -moz-border-radius: 1px; box-shadow: 1px 2px 1px #f1f1f1; filter: alpha(opacity=85);	background: #ffffff url(../images/bkgrd2.png); padding: 5px; }
+#tab_menu ul { margin-top: 0; margin-left: -30px; }
+#tab_menu ul li { list-style: none; display: inline; margin-left: 0; padding: 10px; background-color: #FFF; border-radius: 15px 15px 0px 0px; border: 1px solid #CCC; -moz-border-radius: 2px; box-shadow: 1px 5px 5px #CCC; filter: alpha(opacity=85); }
+#tab_menu ul li:hover { background-color: #C60070; }
+#tab_menu li a { text-decoration: none; font-size: 12px; margin-left: 2px; color: #C60070; margin-right: 10px; font-weight: bold; text-align: center; }
+#tab_menu li.active { background-color: #C60070; font-color: #FFF; }
+#tab_menu li a:hover { color: #fff; }
+table#userlist { width:auto; border: 1px solid #CCC; margin: 0 auto; margin-top:10px; margin-bottom:10px; width: 600px; padding:3px; background-color: #FFF;	}
+table#product_table { width:auto; height:auto; }
+div#sortable .each_data { position:relative; overflow:hidden; padding:3px; background-color:#ddd; margin-bottom:5px; border-bottom:1px solid #fff; cursor:pointer; color:#666; }
+table#userlist th, table#product_table th { text-align:center; font-size:12px; color:#666; }
+table#userlist td, table#product_table td { text-align:left; font-size:12px; color:#666; padding:3px; color: #666;}		
+ul#footer_menu { width:auto; height:auto; }
+ul#footer_menu li { display:inline; list-style: none; border-right:1px solid #CCC; }
+ul#footer_menu li:last-child { border:none; }
+ul#footer_menu li a { display:inline; text-decoration: none; font-size:11px;  color:#888; padding: 0 5px 0 5px; }
+ul#footer_menu li a:hover { color:#666; } 	
+fieldset { margin: 0; padding: 10px; }
+form { margin: 0; padding: 0; }
+pre { background-color: #F7F7F7; border: 1px solid #D7D7D7; overflow: auto; margin: 0; padding: 0.25em; }
+#alerts { color: Red; }
+#footer hr { margin: 10px 0 15px 0; height: 1px; border: solid 1px gray; border-bottom: none; }
+#footer p { margin: 0 10px 10px 10px; float: left; }
+#footer #copy { float: right; }
+#outputSample { width: 100%; table-layout: fixed; }
+#outputSample thead th { color: #dddddd; background-color: #999999; padding: 4px; white-space: nowrap; }
+#outputSample tbody th { vertical-align: top; text-align: left; }
+#outputSample pre { margin: 0; padding: 0; white-space: pre; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; white-space: pre-wrap; white-space: pre-line; word-wrap: break-word; }
+.box { position:relative; overflow:hidden;  border:1px solid #666;  width:auto; height:auto; float:left;  margin-left:10px; margin-top:10px; border: 1px solid #DDD; -moz-border-radius: 2px; border-radius: 10px 10px 2px 2px; box-shadow: 1px 5px 5px #CCC; filter: alpha(opacity=85); padding:5px; }
+.box .info_box { position:relative;  overflow:hidden;  text-align:center;  margin:0 auto;  padding:3px;  width:auto;  height:auto; }
+#header { width:100%; height:auto; padding:15px; background-color:#C60070; position:relative; overflow:hidden; }
+#bigcontent { width:980px; height:auto; position:relative; overflow:display; margin:0 auto; margin-top:20px; border:1px solid #DDD; padding:0; background-color:#fff; border: 1px solid #DDD; -moz-border-radius: 2px; border-radius: 10px 10px 2px 2px; box-shadow: 1px 5px 5px #CCC; filter: alpha(opacity=85); }
+.stripcontent { float:left; width:980px; height:auto; position:relative; margin-bottom:50px; }
+#box_tab { width:auto; height:30px; position:relative; overflow:hidden; background-color:#FFFF; border-radius: 0px 10px 0px 0px; padding:15 0px 15px; 0px; margin-top:-20px; }
+#container { -moz-border-radius: 2px; border-radius: 2px; box-shadow: 1px 5px 5px #888; position: relative; overflow: hidden; width:950px; height:auto; margin:0 auto; margin-top:20px; }
+.add_field,.remove_field{
+					background-color: #d3d3d3;
+					width: 20px;
+					height: 20px;
+					display: inline-block;
+					text-align: center;
+					color: #0033ff;
+					font-size: 19px;
+					cursor: pointer;
+				}
+
+				.input_holder input{
+					display:block;
+				}

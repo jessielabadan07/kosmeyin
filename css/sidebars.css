@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.contactBox{
+	padding:20px;
+	background-color:#f1fafc;
+	box-shadow:rgba(0,0,0,.2) 1px 2px 4px;
+	border-radius:8px;
+	color:#949494;
+	font-size:12px;
+}
+
+.contactBox h2{
+	font-size:24px;
+	font-weight:normal;
+	margin:0;
+	padding:0 0 20px 0;
+	color:black;
+	text-transform:capitalize;
+}
+
+.contactBox p{
+	padding-top:0;
+	margin-top:0;
+	clear:both;
+}
+

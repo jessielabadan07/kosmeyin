@@ -1,0 +1,10 @@
+.productQuickInfoViewProd{
+	text-align:right;
+	color:#73CEE1;
+}
+
+.productQuickInfoViewProd a, .productQuickInfoViewProd a:link, .productQuickInfoViewProd a:visited{
+	text-decoration:none;
+	color:#73CEE1;
+	font-size:12px;
+}
